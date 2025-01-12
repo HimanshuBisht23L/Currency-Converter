@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">FLIP CARD</p>
+                    <p>Check Currency Rate</p>
+                </div>
+                <div class="flip-card-back">
+                    <div class="form">
+                        <div class="amount">
+                            <p>Enter Amount</p>
+                            <input value="1" type="number" placeholder="Enter Amount Here">
+                        </div>
+
+                        <div class="convert">
+                            <div class="from">
+                                <p>From</p>
+                                <div class="select-from-code">
+                                    <img src="https://flagsapi.com/IN/flat/64.png">
+                                    <select>
+
+                                    </select>
+                                </div>
+                            </div>
+
+                            <img src="images/exchange.svg">
+
+                            <div class="to">
+                                <p>To</p>
+                                <div class="select-to-code">
+                                    <img src="https://flagsapi.com/US/flat/64.png">
+                                    <select>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="output">1 USD = 80 Ruppees</p>
+                        <button class="convert-btn">Convert Currency</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
